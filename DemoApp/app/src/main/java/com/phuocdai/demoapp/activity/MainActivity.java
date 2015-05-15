@@ -29,13 +29,13 @@ public class MainActivity extends BaseActivity {
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         ActionBar.Tab tab = actionBar.newTab()
-                .setText("aaa")
+                .setText("aaaaaa")
                 .setTabListener(new TabListener<TagFragment>(
                         this, "artist", TagFragment.class));
         actionBar.addTab(tab);
 
         tab = actionBar.newTab()
-                .setText("bbb")
+                .setText("bbbbbb")
                 .setTabListener(new TabListener<BlankFragment>(
                         this, "album", BlankFragment.class));
         actionBar.addTab(tab);
