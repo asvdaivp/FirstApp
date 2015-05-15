@@ -35,7 +35,7 @@ public class MainActivity extends BaseActivity {
         actionBar.addTab(tab);
 
         tab = actionBar.newTab()
-                .setText("bbbbbb")
+                .setText("bbbbbddb")
                 .setTabListener(new TabListener<BlankFragment>(
                         this, "album", BlankFragment.class));
         actionBar.addTab(tab);
